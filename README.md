@@ -76,19 +76,6 @@ Telegram-бот интернет-магазина на PHP с использов
 | `items` | читает товары, уменьшает поле `count` при заказе |
 | `bot_orders` | создаёт и читает заказы бота (своя таблица) |
 
-Таблица `bot_orders` создаётся через `schema_orders.sql`:
-
-```sql
-CREATE TABLE bot_orders (
-    id             BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    telegram_id    BIGINT NOT NULL,
-    telegram_name  VARCHAR(200) NOT NULL DEFAULT '',
-    items_json     TEXT NOT NULL,
-    total          DECIMAL(10,2) NOT NULL,
-    payment_method VARCHAR(50) NOT NULL,
-    status         VARCHAR(30) NOT NULL DEFAULT 'new',
-    created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
 ```
 
 ---
