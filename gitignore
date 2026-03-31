@@ -1,0 +1,17 @@
+# зависимости composer — устанавливаются через composer install
+/vendor/
+
+# конфиг с токеном, паролями бд и smtp — никогда не публиковать
+/config.php
+
+# данные пользователей: состояния, корзины, логи писем
+/storage/
+
+# файлы ide
+/.idea/
+/.vscode/
+*.iml
+
+# системные файлы macos и windows
+.DS_Store
+Thumbs.db
