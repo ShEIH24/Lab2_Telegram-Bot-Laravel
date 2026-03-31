@@ -1,7 +1,7 @@
 # Telegram Shop Bot
 
 Telegram-бот интернет-магазина на PHP с использованием библиотеки [irazasyed/telegram-bot-sdk](https://github.com/irazasyed/telegram-bot-sdk). Работает в режиме long polling. Подключается к MySQL-базе данных магазина.
-
+Мой экземпляр: @magazinShEIH24bot
 ---
 
 ## Возможности
